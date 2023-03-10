@@ -1,0 +1,450 @@
+/* background "border" color */
+.background {
+    background-color: rgb(65, 185, 255, 0.942);
+}
+
+/* main background color */
+.insideBackground {
+    background-color: rgb(255, 255, 255);
+}
+
+/* large devices, laptops */
+@media screen and (max-width: 2000px) {
+
+    /* navagation grid */
+    .thegrid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(65, 185, 255, 0.942);
+        grid-gap: 70px;
+        padding: 10px;
+        float: right;
+    }
+
+    a:link {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    /* hover color */
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* coffee break neon sign */
+    .headerimage {
+        background-image: url(images/coffeebreakNeon.webp);
+        padding: 200px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+    }
+
+    /* Take A Break from the Grind header*/
+    .coffeebreak {
+        margin: auto;
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        padding-left: 90px;
+        color: rgb(0, 0, 0);
+    }
+
+    /* Laptop with Coffee image */
+    .smallimage {
+        background-image: url(images/laptopwithCoffee.webp);
+        padding: 200px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    /* Should I drink more coffee p */
+    .drinkMoreCoffee {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding-left: 80px;
+        float: center;
+        width: 80%;
+        margin: left;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* starbucks order ideas */
+    .starbucksOrders {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding: 70px;
+        padding-right: 200px;
+        width: 65%;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+
+    .grid {
+        /* for study break and coffee info */
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 0px;
+    }
+
+    /* fact box */
+    .fact {
+        border-style: solid;
+        border-color: rgb(65, 185, 255, 0.942);
+        font-size: 25px;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid for starbucks and cute images */
+    .bottomhalfgrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 0px;
+    }
+
+    /* how to take an effective study break p */
+    .studyBreak {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding-right: 80px;
+        width: 65%;
+        margin: auto;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid where circle pictures are */
+    .imageGrid {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 150px;
+        /* padding-left: 130px; */
+        grid-gap: 100px;
+    }
+
+    /* makes it a circle */
+    img {
+        border-radius: 50%;
+    }
+
+    .sources {
+        /* border color */
+        border-style: hidden;
+        font-size: 15px;
+        padding: 10px;
+        float: center;
+        width: 90%;
+        margin: left;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+/* medium size devices */
+@media screen and (max-width: 992px) {
+
+    /* navagation grid */
+    .thegrid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(65, 185, 255, 0.942);
+        grid-gap: 40px;
+        padding: 10px;
+        float: right;
+    }
+
+    a:link {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    /* hover color */
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* neon sign picture */
+    .headerimage {
+        background-image: url(images/coffeebreakNeon.webp);
+        padding: 150px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    /* Take A Break from Studying */
+    .coffeebreak {
+        margin: auto;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        padding-left: 40px;
+        color: rgb(0, 0, 0);
+    }
+
+    /* Laptop with Coffee image */
+    .smallimage {
+        background-image: url(images/laptopwithCoffee.webp);
+        padding: 200px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Should I Drink More Coffee p */
+    .drinkMoreCoffee {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding: 50px;
+        float: center;
+        width: 80%;
+        margin: left;
+        /* text color */
+        color: black;
+        text-align: justify;
+    }
+
+    /* starbucks order ideas */
+    .starbucksOrders {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding: 30px;
+        width: 90%;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+
+    .fact {
+        /* fact box */
+        border-style: solid;
+        border-color: rgb(65, 185, 255, 0.942);
+        font-size: 25px;
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid for starbucks and cute images */
+    .bottomhalfgrid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* How to take an Effective Break p */
+    .studyBreak {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        width: 70%;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid where pictures are */
+    .imageGrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    /* makes images circle */
+    img {
+        border-radius: 50%;
+    }
+
+    .grid {
+        /* for study break and coffee info */
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .sources {
+        /* border color */
+        border-style: hidden;
+        font-size: 15px;
+        padding: 10px;
+        float: center;
+        width: 90%;
+        margin: left;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+}
+
+/* small devices, phones */
+@media screen and (max-width: 700px) {
+
+    /* navagation grid */
+    .thegrid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-repeat: no-repeat;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(65, 185, 255, 0.942);
+        grid-gap: 20px;
+        padding: 10px;
+        float: right;
+    }
+
+    a:link {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    /* hover color */
+    a:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    .headerimage {
+        background-image: url(images/coffeebreakNeon.webp);
+        padding: 150px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+    /* Take A Break from Studying */
+    .coffeebreak {
+        margin: auto;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        padding-left: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    /* Laptop with Coffee image */
+    .smallimage {
+        background-image: url(images/laptopwithCoffee.webp);
+        padding: 100px;
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Should I drink More Coffee */
+    .drinkMoreCoffee {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        padding: 50px;
+        float: center;
+        width: 80%;
+        margin: left;
+        /* text color */
+        color: black;
+        text-align: justify;
+    }
+
+    /* starbucks order ideas */
+    .starbucksOrders {
+        /* border color */
+        border-style: hidden;
+        width: 80%;
+        font-size: 25px;
+        padding: 30px;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+
+    .fact {
+        /* fact box */
+        border-style: solid;
+        border-color: rgb(65, 185, 255, 0.942);
+        font-size: 25px;
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid for starbucks and cute images */
+    .bottomhalfgrid {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 0px;
+    }
+
+    /* How to take an Effective Break */
+    .studyBreak {
+        /* border color */
+        border-style: hidden;
+        font-size: 25px;
+        width: 70%;
+        padding: 10px;
+        /* text color */
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    /* grid where pictures are */
+    .imageGrid {
+        display: grid;
+        /* one column */
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+
+    /* circle images */
+    img {
+        border-radius: 50%;
+    }
+
+
+    .grid {
+        /* for study break and coffee info */
+        display: grid;
+        /* only one column */
+        grid-template-columns: auto;
+    }
+
+    .sources {
+        /* border color */
+        border-style: hidden;
+        font-size: 15px;
+        padding: 10px;
+        float: center;
+        width: 90%;
+        margin: left;
+        /* text color */
+        color: rgb(0, 0, 0);
+    }
+}
